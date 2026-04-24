@@ -8,7 +8,7 @@ Travel planning is open-ended, preference-heavy, and often iterative. TravelMind
 
 ## Repository Status
 
-This public repository currently presents the **system design, architecture diagrams, and planning artifacts** for the project. It should be understood as a portfolio-ready architecture and product-thinking repository rather than a full production code release.
+This public repository currently presents the **system design, architecture diagrams, product screenshots, and demo assets** for the project. It should be understood as a portfolio-ready project showcase rather than a full production code release.
 
 ## Why This Project Matters
 
@@ -40,7 +40,10 @@ This public repository currently presents the **system design, architecture diag
 |   |   `-- dual_model_plan_enhancement.md
 |   `-- screenshots/
 |       |-- README.md
-|       `-- travelmind-demo-preview.png
+|       |-- discover_interface.png
+|       |-- discover_result.png
+|       |-- plan_interface.png
+|       `-- plan_result.png
 |-- .gitignore
 `-- README.md
 ```
@@ -64,6 +67,8 @@ No installation is required to review the current public repository.
 
 ## How To Use This Repository
 
+- Watch the demo video in `docs/demo/TravelMind_demo.mp4` for the fastest product overview.
+- Review the screenshots in `docs/screenshots/` to understand the two core user flows.
 - Open the HTML files in `docs/architecture/` in a browser to review the visual design artifacts.
 - Read `docs/notes/dual_model_plan_enhancement.md` for the enhancement design note.
 - Use this repository as a portfolio artifact that communicates system thinking, AI workflow design, and architecture clarity.
@@ -73,18 +78,25 @@ No installation is required to review the current public repository.
 If you are a recruiter, collaborator, or reviewer opening this project, the fastest way to evaluate it is:
 
 1. Read this README for context.
-2. Open `docs/architecture/architecture_diagram.html`.
-3. Open `docs/architecture/data_flow_diagram.html`.
-4. Review `docs/notes/dual_model_plan_enhancement.md`.
+2. Watch `docs/demo/TravelMind_demo.mp4`.
+3. Scan the four product screenshots below.
+4. Open `docs/architecture/architecture_diagram.html`.
+5. Review `docs/notes/dual_model_plan_enhancement.md`.
 
 ## Demo / Screenshots
 
-The strongest portfolio assets for this project are the interactive UI demo and a clean product screenshot that shows the planning experience at a glance.
+The strongest portfolio assets for this project are the end-to-end demo video and the four screenshots that show the main user journey from input to structured travel output.
 
 Included assets:
 
-- Product UI preview:
-  `docs/screenshots/travelmind-demo-preview.png`
+- Discovery mode input:
+  `docs/screenshots/discover_interface.png`
+- Discovery mode result:
+  `docs/screenshots/discover_result.png`
+- Existing-plan enhancement input:
+  `docs/screenshots/plan_interface.png`
+- Existing-plan enhancement result:
+  `docs/screenshots/plan_result.png`
 - End-to-end demo video:
   `docs/demo/TravelMind_demo.mp4`
 
@@ -94,9 +106,12 @@ What the demo highlights:
 - structured itinerary generation with warnings, pacing, and match scoring
 - plan enhancement for users who already have a rough travel outline
 
-Featured preview:
+Product tour:
 
-![TravelMind demo preview](docs/screenshots/travelmind-demo-preview.png)
+| Discovery flow | Enhancement flow |
+| --- | --- |
+| ![TravelMind discovery interface](docs/screenshots/discover_interface.png) | ![TravelMind plan enhancement interface](docs/screenshots/plan_interface.png) |
+| ![TravelMind discovery result](docs/screenshots/discover_result.png) | ![TravelMind plan enhancement result](docs/screenshots/plan_result.png) |
 
 Watch the full walkthrough:
 
@@ -106,6 +121,7 @@ Watch the full walkthrough:
 
 This repository does not claim production metrics or benchmark results. Its current value is in:
 
+- showing a polished AI product interface and end-to-end user flow
 - clearly communicating the system concept
 - documenting the multi-agent planning workflow
 - showing AI product design maturity and implementation planning
@@ -115,7 +131,7 @@ This repository does not claim production metrics or benchmark results. Its curr
 - add the actual backend and frontend implementation, if available
 - include a minimal runnable prototype for one end-to-end flow
 - add sample prompts, example inputs, and example outputs
-- add screenshots from a live interface if a frontend becomes public
+- document the agent prompts, orchestration logic, and evaluation criteria
 - document design tradeoffs, limitations, and failure modes more explicitly
 
 ## Tech Stack
