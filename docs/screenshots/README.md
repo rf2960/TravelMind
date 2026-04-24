@@ -7,6 +7,9 @@ Recommended files:
 - `architecture-overview.png`
 - `data-flow-diagram.png`
 - `backend-structure.png`
+- `travelmind-demo-preview.png`
+- `travelmind-results-preview.png`
+- `travelmind-enhancement-preview.png`
 
 Optional:
 

@@ -34,10 +34,13 @@ This public repository currently presents the **system design, architecture diag
 |   |   |-- architecture_diagram.html
 |   |   |-- backend_structure.html
 |   |   `-- data_flow_diagram.html
+|   |-- demo/
+|   |   `-- TravelMind_demo.mp4
 |   |-- notes/
 |   |   `-- dual_model_plan_enhancement.md
 |   `-- screenshots/
-|       `-- README.md
+|       |-- README.md
+|       `-- travelmind-demo-preview.png
 |-- .gitignore
 `-- README.md
 ```
@@ -76,13 +79,28 @@ If you are a recruiter, collaborator, or reviewer opening this project, the fast
 
 ## Demo / Screenshots
 
-Suggested screenshots and demo assets should live in `docs/screenshots/`.
+The strongest portfolio assets for this project are the interactive UI demo and a clean product screenshot that shows the planning experience at a glance.
 
-Recommended additions:
+Included assets:
 
-- architecture overview screenshot
-- data-flow diagram screenshot
-- one short GIF or screen recording flipping through the design artifacts
+- Product UI preview:
+  `docs/screenshots/travelmind-demo-preview.png`
+- End-to-end demo video:
+  `docs/demo/TravelMind_demo.mp4`
+
+What the demo highlights:
+
+- destination discovery from sparse travel preferences
+- structured itinerary generation with warnings, pacing, and match scoring
+- plan enhancement for users who already have a rough travel outline
+
+Featured preview:
+
+![TravelMind demo preview](docs/screenshots/travelmind-demo-preview.png)
+
+Watch the full walkthrough:
+
+- [Watch the TravelMind demo video](docs/demo/TravelMind_demo.mp4)
 
 ## Results / Evaluation
 
